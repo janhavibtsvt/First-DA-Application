@@ -66,16 +66,20 @@ export function useTheme(defaultMode: ThemeMode = 'light', defaultColor: ThemeCo
   useEffect(() => {
     const root = document.documentElement;
 
-    // Apply dark class
+    // Apply dark class to both html and body elements
     if (theme === 'dark') {
       root.classList.add('dark');
+      document.body?.classList.add('dark');
     } else {
       root.classList.remove('dark');
+      document.body?.classList.remove('dark');
     }
 
-    // Apply data-theme-color attribute
+    // Apply data-theme-color attribute to both html and body
     root.setAttribute('data-theme-color', themeColor);
+    document.body?.setAttribute('data-theme-color', themeColor);
     root.style.setProperty('--theme-primary', colorDefinition.primary);
+    document.body?.style.setProperty('--theme-primary', colorDefinition.primary);
 
     // Save to localStorage
     try {
