@@ -1,0 +1,6 @@
+{
+  "name": "E-Commerce Customer & Sales Intelligence",
+  "description": "Production-quality Business Intelligence and Data Analytics platform analyzing revenue, profitability, customer RFM segmentation, and unit economics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
