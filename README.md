@@ -1,15 +1,15 @@
 # E-Commerce Customer & Sales Intelligence
 ### Strategic Business Intelligence & Data Analytics Portfolio Project
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Open_Analytics_Platform-4f46e5?style=for-the-badge&logo=googlecloud&logoColor=white)](https://ais-pre-gpyv6fvywyjkkf7prhbvus-929485564140.asia-southeast1.run.app)
 [![React 19](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript_5.8-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS_v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-> 🌐 **Live Production Deployment URL:**  
-> **[https://ais-pre-gpyv6fvywyjkkf7prhbvus-929485564140.asia-southeast1.run.app](https://ais-pre-gpyv6fvywyjkkf7prhbvus-929485564140.asia-southeast1.run.app)**  
-> *(Fully deployed and accessible worldwide — no setup or sign-in required)*
+> 🚀 **Live Demo URL Options:**  
+> - **GitHub Pages:** `https://<your-github-username>.github.io/<your-repo-name>/` *(Automated via included GitHub Action)*  
+> - **Vercel / Netlify:** Instant zero-config import from your GitHub repo  
+> - **AI Studio Cloud Link:** Click the **Share** button in the top right header to activate the public preview link.
 
 ---
 
@@ -185,9 +185,7 @@ git remote add origin https://github.com/<your-github-username>/ecommerce-sales-
 git push -u origin main
 ```
 
-> 💡 **Portfolio Tip:** In your new GitHub repository, click the ⚙️ gear icon next to the **About** section on the right-hand sidebar and paste the live deployment URL into the **Website** field:  
-> `https://ais-pre-gpyv6fvywyjkkf7prhbvus-929485564140.asia-southeast1.run.app`  
-> Check the box for *"Use your GitHub Pages website"* if deploying via GitHub Pages, or keep the Cloud Run URL to show your live production cloud app!
+> 💡 **Portfolio Tip:** In your new GitHub repository, click the ⚙️ gear icon next to the **About** section on the right-hand sidebar and check the box for **"Use your GitHub Pages website"** (or paste your live URL if using Vercel or AI Studio Share). This gives recruiters a 1-click live demo right from your repository header!
 
 ### Option C: Free Automated Deployment to GitHub Pages
 A turnkey GitHub Actions workflow is included at `.github/workflows/deploy.yml`:

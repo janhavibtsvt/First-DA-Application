@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "description": "Production-grade E-Commerce Business Intelligence & Customer Analytics platform",
-  "homepage": "https://ais-pre-gpyv6fvywyjkkf7prhbvus-929485564140.asia-southeast1.run.app",
+  "homepage": "./",
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
